@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Speedify</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <h4 class="title disabled">Speedify</h4>
+            </div>
+
+            <div class="row">
+                <h1 id="playbackSpeedLabel" class="disabled"></h1>
+            </div>
+
+            <div class="row flex-row">
+                <button class="disabled" id="minus" class="icon-button margin-right">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12L19 12" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </button>
+               
+                <button class="disabled" id="plus" class="icon-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                        <path d="M5 12L19 12" stroke-width="3" stroke-linecap="round"/>
+                        <path d="M12 19L12.0113 5" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </button>
+            </div>
+            
+            <div class="row flex-row">
+                <label id="toggleLabel" class="toggle-control">
+                    <input id="toggle" type="checkbox">
+                    <span class="control"></span>
+                </label>   
+            </div>
+               
+        </div>
+        
+    </body>
+</html>

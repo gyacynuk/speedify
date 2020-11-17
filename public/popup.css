@@ -1,0 +1,111 @@
+body {
+    width: 120px;
+    background-color: #222229;
+    color: white;
+    margin: 16px 24px;
+}
+
+h1 {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    -webkit-transition: color 0.15s ease-in;
+    transition: color 0.15s ease-in;
+}
+h1.disabled {
+    color:#787878;
+}
+
+svg {
+    -webkit-transition: stroke 0.15s ease-in;
+    transition: stroke 0.15s ease-in;
+    stroke: white;
+}
+.disabled > svg {
+    stroke:#787878;
+}
+.enabled > svg:hover {
+    stroke: dodgerblue;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.row {
+    margin: 12px 0;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+}
+
+.margin-right {
+    margin-right: 16px;
+}
+
+.title {
+    text-align: center;
+    color:dodgerblue;
+    -webkit-transition: color 0.15s ease-in;
+    transition: color 0.15s ease-in;
+}
+.title.disabled{
+    color:#787878;
+}
+  
+
+/* Toggle Slider */
+.toggle-control {
+    display: block;
+    position: relative;
+    padding-left: 48px;
+    margin-bottom: 32px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  }
+  .toggle-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .toggle-control input:checked ~ .control {
+    background-color: dodgerblue;
+  }
+  .toggle-control input:checked ~ .control:after {
+    left: 26px;
+  }
+  .toggle-control .control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 24px;
+    width: 48px;
+    border-radius: 12px;
+    background-color: darkgray;
+    -webkit-transition: background-color 0.15s ease-in;
+    transition: background-color 0.15s ease-in;
+  }
+  .toggle-control .control:after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 12px;
+    background: white;
+    -webkit-transition: left 0.15s ease-in;
+    transition: left 0.15s ease-in;
+  }
