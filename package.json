@@ -1,0 +1,19 @@
+{
+  "name": "speedify",
+  "version": "1.0.0",
+  "description": "Speed-up or slow-down video playback",
+  "main": "popup.js",
+  "author": "Griffin Yacynuk",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode development",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^6.3.1",
+    "rimraf": "^3.0.2",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
