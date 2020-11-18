@@ -9,6 +9,7 @@ module.exports = {
     output: {
         filename: '[name].js'
     },
+    devtool: "inline-source-map",
     plugins: [
         new CopyPlugin({
             patterns: [

@@ -4,7 +4,7 @@
  * @author Griffin Yacynuk
  * @since  1.0.0
  */
-import { getStorageData, setStorageData, getCurrentTab } from './modules/utils';å
+import { getStorageData, setStorageData, getCurrentTab } from './modules/utils';
 
 
 // Define locally used constants
