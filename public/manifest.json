@@ -1,7 +1,7 @@
 {
     "name": "Speedify",
     "description": "Speed-up or slow-down video playback",
-    "version": "1.0",
+    "version": "1.0.1",
     "permissions": [
         "tabs",
         "storage"
