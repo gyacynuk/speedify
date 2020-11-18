@@ -9,12 +9,12 @@ After struggling to pay attention during painfully slow online lectures (thanks,
 ## Install from the Chrome Store
 Currently pending review...
 
-## Building
+## Building the Project
 - First run `yarn init`
 - To continually build during development, run `yarn run watch`
 - To create a production build, run `yarn run build`
 
-## Installing into Chrome
+## Installing a Cloned Version into Chrome
 - Navigate to chrome://extensions/
 - Turn "Developer mode" on by using the toggle in the top right of the page.
 - On the left hand side of the page click "Load unpacked".
