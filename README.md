@@ -6,6 +6,9 @@ After struggling to pay attention during painfully slow online lectures (thanks,
   <img src="https://github.com/gyacynuk/speedify/blob/main/demo/banner.png?raw=true"/>
 </p>
 
+## Install from the Chrome Store
+Currently pending review...
+
 ## Building
 - First run `yarn init`
 - To continually build during development, run `yarn run watch`
