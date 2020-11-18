@@ -6,12 +6,12 @@ After struggling to pay attention during painfully slow online lectures (thanks,
   <img src="https://github.com/gyacynuk/speedify/blob/main/demo/screenshot.png?raw=true" width="320px"/>
 </p>
 
-# Building
+## Building
 - First run `yarn init`
 - To continually build during development, run `yarn run watch`
 - To create a production build, run `yarn run build`
 
-# Installing into Chrome
+## Installing into Chrome
 - Navigate to chrome://extensions/
 - Turn "Developer mode" on by using the toggle in the top right of the page.
 - On the left hand side of the page click "Load unpacked".
