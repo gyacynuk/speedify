@@ -3,7 +3,7 @@ An open source Chrome Extension for speeding up (or slowing down) HTML5 video pl
 
 After struggling to pay attention during painfully slow online lectures (thanks, COVID-19), I decided to take matters into my own hands and created Speedify. With this extension any HTML5 video can be played back at a custom speed, making boring lecture videos fly by.
 <p align="center">
-  <img src="https://github.com/gyacynuk/speedify/blob/main/demo/screenshot.png?raw=true" width="320px"/>
+  <img src="https://github.com/gyacynuk/speedify/blob/main/demo/banner.png?raw=true"/>
 </p>
 
 ## Building
