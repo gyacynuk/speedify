@@ -14,7 +14,7 @@ const NORMAL_SPEED = 100;
 const SPEED_INCREMENT = 10;
 
 /**
- * Sets wheter the UI is in a disabled state or not.
+ * Sets whether the UI is in a disabled state or not.
  *
  * @param {boolean} state true if the UI should be disabled, false otherwise.
  */
